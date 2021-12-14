@@ -1,0 +1,56 @@
+:root {
+    --color-white: #FCFAFA;
+    --color-lightgray: #c8d3d5;
+    --color-cadetblue: #a4b8c4;
+    --color-stealteal: #6e8387;
+    --color-darkgreen: #0cca4a;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.section {
+    padding: 1em 5em;
+}
+
+.index-body {
+    background-color: var(--color-lightgray);
+    padding: 1em 1em;
+}
+
+.index-body h3{
+    margin-bottom: 1em;
+}
+
+
+.index-side {
+    background-color: var(--color-cadetblue);
+    padding: 1em;
+}
+
+.index-side li{
+    padding: 1em 0em;
+
+}
+
+.float {
+    display: flex;
+    float: left;
+}
+
+.center {
+    text-align: center;
+    justify-content: center;
+}
+
+.tweets{
+    margin-top: 10em;
+}
+
+.body {
+    margin: 0em 2em;
+    background-color: var(--color-white);
+}
